@@ -1,0 +1,54 @@
+#fixed{
+    position: fixed;
+    bottom: 80px;
+    right: -150px;
+    width: 300px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+#id{
+    height: auto;
+}
+#whatsapp{
+    position: fixed;
+    width: 40px;
+}
+/* #facebook,#instagram{
+    wi
+} */
+#facebook,#instagram:hover{
+    color: darkorchid;
+    
+}
+#heart{
+    color: rgb(218,146,54);
+}
+#cart{
+    color: rgb(218,146,54);
+}
+.main{
+    position: relative;
+}
+.topleft{
+    position: absolute;
+    top: 118px;
+    left: 16px;
+}
