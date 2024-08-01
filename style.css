@@ -16,17 +16,17 @@
     float: left;
   }
   
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+ 
    */
-#id{
-    height: auto;
-}
+
+   li a:hover{
+    color: rgb(214,51,132);
+
+  }
+  #search{
+    background-color:  rgb(46,46,46);
+  }
+
 #whatsapp{
     position: fixed;
     width: 40px;
@@ -67,3 +67,31 @@
     }
     
 } */
+ #btn1,#btn2{
+     background-color:  rgb(240,240,240);
+     color: rgb(164,164,164);
+     width: 150px;
+     height: 50px;
+ }
+ #btn2{
+    background-color:  rgb(240,240,240);
+    color: rgb(164,164,164);
+    width: 220px;
+    height: 50px;
+}
+ .btn3{
+    text-decoration: none;
+    color: rgb(164,164,164);
+    border: 1px solid black;
+    padding: 15px 20px;
+    text-align: center;
+ }
+
+ #heart1{
+  scrollbar-darkshadow-color: aliceblue
+          sadSDASDA
+          asdAS 
+                   asdSADA;
+}
+
+ 
