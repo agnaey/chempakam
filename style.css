@@ -4,7 +4,7 @@
     right: -150px;
     width: 300px;
 }
-ul {
+/* ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -23,7 +23,7 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+   */
 #id{
     height: auto;
 }
@@ -52,3 +52,18 @@ ul {
     top: 118px;
     left: 16px;
 }
+#women{
+    width: 100%;
+    height: auto;
+}
+.topleft{
+    margin-left: 120px;
+}
+
+/* @media screen and (max-width:1043px) {
+   .brand {
+        margin-left: 10%;
+
+    }
+    
+} */

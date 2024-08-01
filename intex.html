@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,28 +11,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 </head>
+
 <body>
 
-<div class="container-fluid">CONTACT US : FOR DELIVARY OUTSIDE INDIA</div>
+    <div class="container-fluid">CONTACT US : FOR DELIVARY OUTSIDE INDIA</div>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dark">
-    <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark text-align-center">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <img src="media/Chempakam_Logo.png" width="150px" id="brand" alt="" style="margin-left: 20%;">
 
-            </span>
-        </button>
-        <img src="media/Chempakam_Logo.png" width="150px" id="brand" alt="">
 
-        <div class="collapsibleNavbar" id="collapsibleNavbar">
-           
-            <ul class="navbar-nav">
-        
-                    <li class="nav-item">
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+                <ul class="navbar-nav me-auto">
+
+
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#">HOME</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#">SHOP NOW</a>
+                        <a class="nav-link dropdown-toggle" href="#">SHOP NOW</a>
+                        
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">REVIEWS</a>
@@ -42,28 +47,39 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">CONTACT US</a>
                     </li>
-            </ul>
-        </div>
-      
-    
-       <a href="#"><i class="fa-brands fa-facebook text-white margin-left: 100px" id="facebook"></i></a>
-      <a href="#"> <i class="fa-brands fa-instagram text-white" id="instagram"></i></a>
-      <a href="#"><i class="fa-regular fa-heart" id="heart"></i></a> 
-      <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
-    </div>
-    
-     
-</nav>
-<div id="fixed">Contact us <span style="margin-left: 10px"></span><img src="media/whatsapplogo.png" class="round-circle" id="whatsapp" alt=""></div>
-<div class="main">
-    <img src="media/women1.jpg" alt="">
-   <div class="topleft">
-    <h1>Welcome to</h1>
-    <img src="media/chempakam.png" alt="">
-    <h1>Online Shop</h1>
-    </div>
-</div>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="text" placeholder="Product Code">
+                        <i class="fa-solid fa-magnifying-glass text-secondary m-3"></i></button>
+                      </form>
+                </ul>
+                <div class="d-flex gap-5" id="social">
+                    <a href="#"><i class="fa-brands fa-facebook text-white margin-left: 100px" id="facebook"></i></a>
+                    <a href="#"> <i class="fa-brands fa-instagram text-white" id="instagram"></i></a>
+                    <a href="#"><i class="fa-regular fa-heart" id="heart"></i></a>
+                    <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
 
-   
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="fixed">Contact us <span style="margin-left: 10px"></span><img src="media/whatsapplogo.png"
+            class="round-circle" id="whatsapp" alt=""></div>
+    <div class="main">
+        <img class="img-fluid" src="media/women1.jpg" width="100%" alt="" id="women1">
+        <div class="topleft">
+            <h1 class="text-white">Welcome to</h1>
+            <img class="img-fluid" src="media/chempakam.png" alt="">
+            <h1 class="text-white">Online Shop</h1>
+            <button type="button" class="btn btn-secondary ">
+                SHOP NOW
+              </button><br><br>
+              <button type="button" class="btn btn-secondary" >
+                DISCOUNT SALE
+              </button>
+        </div>
+    </div>
+
+
 </body>
+
 </html>
