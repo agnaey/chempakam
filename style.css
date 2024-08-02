@@ -1,3 +1,8 @@
+
+#topslide{
+    font-family: 'Courier New', Courier, monospace;
+text-align: center;    background-color: bisque;
+}
 #fixed{
     position: fixed;
     bottom: 80px;
