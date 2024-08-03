@@ -25,7 +25,7 @@ text-align: center;    background-color: bisque;
    */
 
    li a:hover{
-    color: rgb(214,51,132);
+    color: red;
 
   }
   #search{
@@ -107,6 +107,7 @@ figcaption{
     border: 1px solid gray;
     padding: 5px 20px;
     margin-bottom: 20px;
+    text-decoration: none;
 }
 #btn4:hover{
     background-color:  rgb(240,240,240);
@@ -130,3 +131,77 @@ figcaption{
     color:  rgb(164,164,164);
 }
 
+.btn6{
+    text-decoration: none;
+    background-color: rgb(240,240,240) ;
+    color:rgb(164,164,164) ;
+    border: 1px solid gray;
+    padding: 5px 20px;
+}
+#heart2{
+    color:rgb(164,164,164) ;
+    
+}
+
+.text3{
+    color:rgb(164,164,164) ;
+    font-size: 15px;
+}
+
+
+
+
+
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+  }
+  .footer h5 {
+    /* font-size: 16px;
+    margin-bottom: 20px; */
+    font-weight: bold;
+  }
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+  .footer ul li a {
+    color:rgb(164,164,164) ;
+    text-decoration: none;
+  }
+  .footer ul li a:hover {
+    color: red;
+  }
+  .footer .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  .footer .social-icons a {
+    color: #fff;
+    font-size: 18px;
+  }
+  .footer .contact-info li {
+    color:rgb(164,164,164) ;
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .footer .contact-info li i {
+    
+    margin-right: 10px;
+  }
+  .footer .copyright {
+    margin-top: 20px;
+    text-align: center;
+  }
+  @media (max-width: 767.98px) {
+    .footer .col-md-3, .footer .col-md-2, .footer .col-md-4 {
+      text-align: center;
+    }
+  }
