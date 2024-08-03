@@ -72,7 +72,7 @@ text-align: center;    background-color: bisque;
     }
     
 } */
- #btn1,#btn2{
+ #btn1{
      background-color:  rgb(240,240,240);
      color: rgb(164,164,164);
      width: 150px;
@@ -85,18 +85,48 @@ text-align: center;    background-color: bisque;
     height: 50px;
 }
  .btn3{
+ 
     text-decoration: none;
     color: rgb(164,164,164);
     border: 1px solid black;
     padding: 15px 20px;
     text-align: center;
  }
+.btn3:hover{
+    background-color:  rgb(240,240,240);
+    color: rgb(164,164,164);
 
- #heart1{
-  scrollbar-darkshadow-color: aliceblue
-          sadSDASDA
-          asdAS 
-                   asdSADA;
 }
 
+figcaption{
+    color:rgb(164,164,164) ;
+}
  
+
+#btn4{
+    border: 1px solid gray;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+#btn4:hover{
+    background-color:  rgb(240,240,240);
+    color: rgb(164,164,164);
+}
+
+.btn5{
+    text-decoration: none;
+    color:rgb(164,164,164) ;
+    border: 1px solid gray;
+    padding: 10px 20px;
+}
+.btn5:hover{
+    background-color:  rgb(240,240,240);
+    color: rgb(164,164,164);
+}
+
+
+#text{
+    text-decoration: none;
+    color:  rgb(164,164,164);
+}
+
