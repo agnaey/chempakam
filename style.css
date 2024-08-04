@@ -1,4 +1,7 @@
 
+body{
+  overflow-x: hidden;
+}
 #topslide{
     font-family: 'Courier New', Courier, monospace;
 text-align: center;    background-color: bisque;
@@ -29,7 +32,7 @@ text-align: center;    background-color: bisque;
 
   }
   #search{
-    background-color:  rgb(46,46,46);
+    background-color:  rgb(105, 104, 104);
   }
 
 #whatsapp{
@@ -147,6 +150,9 @@ figcaption{
     color:rgb(164,164,164) ;
     font-size: 15px;
 }
+/* #social{
+  justify-content: center;
+} */
 
 
 
