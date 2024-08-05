@@ -206,6 +206,11 @@ figcaption{
     margin-top: 20px;
     text-align: center;
   }
+
+#descri{
+  font-size: 13px;
+}
+
   @media (max-width: 767.98px) {
     .footer .col-md-3, .footer .col-md-2, .footer .col-md-4 {
       text-align: center;
