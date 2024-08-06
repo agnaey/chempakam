@@ -154,7 +154,67 @@ figcaption{
   justify-content: center;
 } */
 
+.main{
+  padding-bottom: 30px;
+}
+.fixed{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+}
+.content{
+  background-image: url(media/women4.jpg);
+  height: 600px;
+  background-position: 50%;
+  background-size: cover;
+  position: relative;
+}
+.c1{
+  margin-left: 27%;
+  padding-top: 5%;
+}
+.c1 h2{
+  line-height: 57px;
+  margin-bottom: 0;
+  font-size: 56.5px;
+  font-weight: 400;
+  color: #fff;
+  padding: 1%;
+  padding-left: 3%;
 
+}
+.c1 h4{
+  font-size: 64px;
+  font-weight: 500;
+  margin-top: -10px;
+  color: #fff;
+  padding: 1%;
+  padding-left: 3%;
+
+}
+h2,h4{
+  font-family: jost,sans-serif;
+}
+.button{
+  padding: 1%;
+  padding-left: 3%;
+}
+.button a{
+  background-color: #f0f0f0 !important;
+color: #888888;
+text-shadow: none;
+border: 1px solid #888888;
+font-size: 14px;
+font-weight: 600;
+text-transform: uppercase;
+padding: 15px 55px;
+display: inline-block;
+line-height: 1;
+text-align: center;
+transition: all .3s;
+text-decoration: none;
+}
 
 
 
